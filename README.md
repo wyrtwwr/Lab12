@@ -1,2 +1,50 @@
-# Lab12
-Polina Rudneva бИПТ-252/ Тема:  12.  Pабота с указателями
+# Домашнее задание к работе 12
+## Условие задачи
+
+Напишите программу, которая вычисляет размер основных типов данных в байтах:
+1) double
+
+## 1. Алгоритм и блок-схема
+## Алгоритм
+1. Начало программы
+2.Объявить массив
+   - `double arr[2]` —   массив из двух элементов типа double
+3.Вычислить размер типа double
+   -  `size = (char*)(&arr[1]) - (char*)(&arr[0]) ` -  разница между адресами двух соседних элементов = размер типа double
+4.Вывести результат
+5. Конец программы
+   
+### Блок-схема
+<img width="122" height="421" alt="Диаграмма без названия drawio" src="https://github.com/wyrtwwr/Lab12/blob/main/LAB12_CHEMA.png" />
+
+## 2. Реализация программы
+
+```
+#define _CRT_SECURE_NO_WARNINGS
+#define _USE_MATH_DEFINES
+#include <locale.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <conio.h>
+#include <math.h>
+
+int main() {
+    setlocale(LC_ALL, "RUS");
+    double arr[2]; 
+   
+    long size = (char*)(&arr[1]) - (char*)(&arr[0]);
+    printf("Размер типа double: %ld байт(а)\n", size);
+    return 0;
+}
+
+```
+
+
+## 3. Результаты работы программы
+
+```
+Размер типа double: 8 байт(а)
+```
+
+
+<img src="https://github.com/wyrtwwr/Lab12/blob/main/LAB112_PROG.jpg" width="981" height="266">
