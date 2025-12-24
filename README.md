@@ -20,23 +20,17 @@
 ## 2. Реализация программы
 
 ```
-#define _CRT_SECURE_NO_WARNINGS
-#define _USE_MATH_DEFINES
-#include <locale.h>
+#define _CRT_SECURE_NO_DEPRECATE
 #include <stdio.h>
-#include <stdlib.h>
-#include <conio.h>
-#include <math.h>
+#include <locale.h>
 
-int main() {
-    setlocale(LC_ALL, "RUS");
-    double arr[2]; 
-   
-    long size = (char*)(&arr[1]) - (char*)(&arr[0]);
-    printf("Размер типа double: %ld байт(а)\n", size);
-    return 0;
+void main()
+{
+	setlocale(LC_ALL, "RUS");
+	short int short_arr[2];
+	printf("размер типа данных short int в байтах: %ld\n", (char*)(&short_arr[1]) - (char*)(&short_arr[0]));
+	return 0;
 }
-
 ```
 
 
