@@ -41,4 +41,5 @@ void main()
 ```
 
 
-<img src="https://github.com/wyrtwwr/Lab12/blob/main/LAB112_PROG.jpg" width="981" height="266">
+<img width="568" height="104" alt="image" src="https://github.com/user-attachments/assets/b1a6a90f-397d-4420-b7fa-0f975a436bad" />
+
