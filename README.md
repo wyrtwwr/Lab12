@@ -15,7 +15,8 @@
 5. Конец программы
    
 ### Блок-схема
-<img width="122" height="421" alt="Диаграмма без названия drawio" src="https://github.com/wyrtwwr/Lab12/blob/main/LAB12_CHEMA.png" />
+<img width="321" height="418" alt="image" src="https://github.com/user-attachments/assets/8bd3c59f-2587-4d3a-a424-797569809b3c" />
+
 
 ## 2. Реализация программы
 
